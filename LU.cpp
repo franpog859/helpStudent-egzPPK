@@ -1,7 +1,6 @@
 // Projekt1.cpp : Defines the entry point for the console application.
 //
 /* 
-Projekt pierwszy.
 Temat: LU
 Autor: Paulina Urbas
 Data oddania: 2017-12-01
