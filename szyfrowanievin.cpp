@@ -109,7 +109,7 @@ string deszyfrowanie(const string & tekstZaszyfrowany, string & klucz)
 	klucz = zmianaWielkosciLiterKlucza(klucz);
 
 	string tekstOdszyfrowany; //zmienna do ktorej zapisywany jest deszyfrowany tekst
-	int i, j; //zmienne u¿ywane w pêtli for, która analizuje kazda litere z osobna (i - odnosnie tekstu, j - odnosnie klucza)
+	int i, j; //zmienne uÅ¼ywane w pÄ™tli for, ktÃ³ra analizuje kazda litere z osobna (i - odnosnie tekstu, j - odnosnie klucza)
 	int znak; //zmienna do ktorej przypisywana jest wartosc ascii litery tekstu odszyfrowanego
 
 	for (i = 0, j = 0; i < tekstZaszyfrowany.length(); i++, j++)
@@ -142,7 +142,7 @@ string szyfrowanie(const string & tekstOdszyfrowany, string & klucz)
 	klucz = zmianaWielkosciLiterKlucza(klucz);
 
 	string tekstZaszyfrowany; //zmienna do ktorej zapisywany jest szyfrowany tekst
-	int i, j; //zmienne u¿ywane w pêtli for, która analizuje kazda litere z osobna (i - odnosnie tekstu, j - odnosnie klucza)
+	int i, j; //zmienne uÅ¼ywane w pÄ™tli for, ktÃ³ra analizuje kazda litere z osobna (i - odnosnie tekstu, j - odnosnie klucza)
 	int znak; //zmienna do ktorej przypisywana jest wartosc ascii litery tekstu zaszyfrowanego
 
 	for (i = 0, j = 0; i < tekstOdszyfrowany.length(); i++, j++)
